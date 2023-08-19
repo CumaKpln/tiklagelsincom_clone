@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.container {
+    margin: 0px 20% 0px 20%;
+}
+
+nav.navbar {
+    flex-direction: row;
+    padding-top: 16px;
+    border-bottom: 1px solid #e91d34;
+    background-color: white;
+    
+}
+
+#nav-logo {
+    height: 56px;
+}
+
+#search-input {
+    margin-right: 15px;
+    padding: 10px;
+    width: 40%;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.nav-link {
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+
+#body {
+    background-color: #f2f2f2;
+}
+
+#slider {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-logo {
+    width: 72px;
+    height: 72px;
+}
+
+.btn-danger {
+    width: 13rem;
+}
+
+#sidebar-slider {
+    width: 15rem;
+    border: solid 3px white;
+}
+
+.cards>.card {
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+footer {
+    flex-direction: row;
+    padding-top: 16px;
+    border-top: 1px solid #e91d34;
+    background-color: white;
+    height: 600px;
+}
+
+#footer-logo {
+    height: 56px;
+    border-bottom: 1px solid #ece6e6e0;
+    width: 120px;
+    height: auto;
+    padding: 35px 0px 35px;
+}
+
+#mail {
+    padding: 10px 5px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+#mail:hover {
+    text-decoration: underline;
+}
